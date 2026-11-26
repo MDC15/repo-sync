@@ -1,0 +1,2 @@
+[console_scripts]
+repo-sync = repo_sync.cli:main

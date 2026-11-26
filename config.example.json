@@ -1,0 +1,15 @@
+{
+  "exclude_repos": ["my-account/old-fork"],
+  "include_repos": [],
+  "include_archived": true,
+  "branch_overrides": {},
+  "desktop_notifications": true,
+  "webhook_url": "",
+  "after_sync": {
+    "my-account/my-project-fork": [
+      ["repo-sync", "update", "/work/my-project-fork", "--remote", "origin", "--branch", "main"],
+      ["npm", "test"]
+    ],
+    "*": []
+  }
+}

@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/repo_sync/__init__.py
+src/repo_sync/cli.py
+src/repo_sync/github_sync.py
+src/repo_sync_cli.egg-info/PKG-INFO
+src/repo_sync_cli.egg-info/SOURCES.txt
+src/repo_sync_cli.egg-info/dependency_links.txt
+src/repo_sync_cli.egg-info/entry_points.txt
+src/repo_sync_cli.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_github_sync.py
